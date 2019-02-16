@@ -66,7 +66,7 @@ echo "vsftpd test file" | sudo tee /home/sammy/ftp/files/test.txt
 
 sudo nano /etc/vsftpd.conf
 
-# we'll need to change some values in the file
+#we'll need to changes some things in the file
 
 write_enable=YES
 
