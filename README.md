@@ -186,15 +186,3 @@ ftp>put test.txt upload.txt
 
 ftp>bye
 
-
-#DISK PARTITION
-
-Sudo parted /dev/sda1 mkpart primary
-
-File system type? Ext 2
-
-Start? 1
-
-End? 1024
-
-Repeat
